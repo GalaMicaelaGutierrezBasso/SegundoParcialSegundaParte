@@ -1,0 +1,11 @@
+body {
+    background-image: url(../img/fondo.png);
+    background-position: center;
+    background-repeat: repeat;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+p {
+    background-color: #45fd2d;
+}
