@@ -1,6 +1,6 @@
 * {
     font-family: "Barlow", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
 }
 body {
@@ -9,7 +9,16 @@ body {
     background-repeat: repeat;
 }
 .titulo {
-    background-color: #2ab4ff;
+    background-color: #ff7300;
+}
+.subtitulo {
+    background-color: #ffe600;
+}
+section {
+    background-color: #ff0101;
+}
+blockquote {
+    background-color: #ff0101;
 }
 nav ul {
     margin: 0;
@@ -41,4 +50,7 @@ nav a:hover {
 nav a:active {
     background-color: rgb(255, 83, 252);
     color: white;
+}
+div {
+    justify-content: center;
 }
