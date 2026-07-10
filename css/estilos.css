@@ -1,11 +1,44 @@
+* {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
 body {
     background-image: url(../img/fondo.png);
     background-position: center;
     background-repeat: repeat;
-    font-family: "Barlow", sans-serif;
-    font-weight: 500;
-    font-style: italic;
 }
-p {
-    background-color: #45fd2d;
+.titulo {
+    background-color: #2ab4ff;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-size: 1.5rem; /* se puede cambiar */
+    line-height: 3rem; /* se puede cambiar */
+    padding: 0.5rem 0.5rem; /* se puede cambiar */
+    text-align: center;
+    text-decoration: none;
+}
+nav a:link {
+    background-color: darkblue;
+    color: white;
+}
+nav a:visited {
+    background-color: rgb(197, 197, 255);
+    color: white;
+}
+nav a:hover {
+    background-color: rgb(76, 255, 204); 
+    color: white;
+}
+nav a:active {
+    background-color: rgb(255, 83, 252);
+    color: white;
 }
