@@ -51,8 +51,18 @@ nav a:active {
     flex-direction: column;
     align-items: center;
 }
+footer {
+    background-color: #ffffff;
+    max-width: 28%;
+    font-size: 1.2rem;
+}
 
 /* Pagina 1 */
+#datocurioso {
+    background-color: #fba5a5;
+    max-width: 66%;
+    font-size: 1.5rem;
+}
 blockquote {
     background-color: #ff0101;
     font-size: 1.5rem;
@@ -92,6 +102,11 @@ blockquote {
 #parrafo5 {
     background-color: #fba5a5;
     max-width: 30%;
+}
+#obrasgaleria, #añoobra {
+    background-color: #f3ff73;
+    max-width: 25%;
+    font-size: 1.3rem;
 }
 
 /* Pagina 3 */
