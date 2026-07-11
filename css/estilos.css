@@ -1,3 +1,4 @@
+/* Todas */
 * {
     font-family: "Barlow", sans-serif;
     font-weight: 500;
@@ -7,18 +8,6 @@ body {
     background-image: url(../img/fondo.png);
     background-position: center;
     background-repeat: repeat;
-}
-.titulo {
-    background-color: #ff7300;
-}
-.subtitulo {
-    background-color: #ffe600;
-}
-section {
-    background-color: #ff0101;
-}
-blockquote {
-    background-color: #ff0101;
 }
 nav ul {
     margin: 0;
@@ -51,6 +40,62 @@ nav a:active {
     background-color: rgb(255, 83, 252);
     color: white;
 }
-div {
-    justify-content: center;
+.titulo {
+    background-color: #ff7300;
+}
+.subtitulo {
+    background-color: #ffe600;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Pagina 1 */
+blockquote {
+    background-color: #ff0101;
+    font-size: 1.5rem;
+}
+.seccion {
+    display: flex;
+}
+.parrafo {
+    padding: 1rem;
+    margin: 1rem;
+}
+#parrafo1 {
+    background-color: #fba5a5;
+    max-width: 30%;
+}
+#parrafo2 {
+    background-color: #fba5a5;
+    max-width: 30%;
+}
+#parrafo3 {
+    background-color: #fba5a5;
+    max-width: 30%;
+}
+
+/* Pagina 2 */
+.otraseccion {
+    display: flex;
+}
+.otroparrafo {
+    padding: 1rem;
+    margin: 1rem;
+}
+#parrafo4 {
+    background-color: #fba5a5;
+    max-width: 70%;
+}
+#parrafo5 {
+    background-color: #fba5a5;
+    max-width: 30%;
+}
+
+/* Pagina 3 */
+.seccion3 {
+    background-color: #fba5a5;
+    max-width: 80%;
 }
