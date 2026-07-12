@@ -6,7 +6,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
         <link href="css/estilos.css" rel="stylesheet">
     </head>
     <body>
@@ -33,11 +32,11 @@
         </fieldset>
         <fieldset>
             <label for="cantidadluces">Cantidad de luces que utiliza: </label>
-            <input type="text" name="cantidadluces" id="cantidadluces" required>
+            <input type="number" name="cantidadluces" id="cantidadluces" required>
         </fieldset>
         <fieldset>
-            <label for="horasfuncionamiento">Tiempo de funcionamiento: </label>
-            <input type="time" name="horasfuncionamiento" id="horasfuncionamiento" required>
+            <label for="horasfuncionamiento">Tiempo de funcionamiento por dia en horas: </label>
+            <input type="number" name="horasfuncionamiento" id="horasfuncionamiento" required>
         </fieldset>
         <fieldset>
             <label for="consumoelectricidad">Consumo de electricidad de la luz móvil por hora: </label>
@@ -47,8 +46,6 @@
             <label for="costo">Costo: </label>
             <input type="number" name="costo" id="costo" required>kWh
         </fieldset>
-        <button type="reset">Borrar</button>
-        <button type="submit">Enviar</button>
     </form>
     </main>
 <hr>
