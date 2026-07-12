@@ -117,8 +117,27 @@ blockquote {
 }
 
 /* Pagina 4 */
-#formularios {
+button {
+	background-color: rgb(255, 0, 0);
+	color: white;
+	padding: 0.5rem;
+}
+form {
     background-color: #ffffff;
-    max-width: 45%;
     font-size: 1.3rem;
+	border: 0.5rem rgb(0, 0, 0);
+	padding: 1em;
+}
+legend {
+    background: #00ffe5;
+	font-weight: bold;
+	padding: 0.2rem;
+}
+fieldset {
+	background: #707070;
+	border: 0.2rem solid rgb(0, 0, 0);
+	margin: 1em 0;
+}
+label {
+	color: rgb(227, 255, 48);
 }
