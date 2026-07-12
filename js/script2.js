@@ -16,11 +16,11 @@ let datosCuriosos = [
 // Despues obtener el elemento con el id "datocurioso" y cambiar su contenido al dato curioso obtenido anteriormente
 function mostrarDato() {
     let datos = Math.round(Math.random() * datosCuriosos.length);
-    document.getElementById("datocurioso").textContent = datosCuriosos[datos];
+    document.querySelector("#datocurioso").textContent = datosCuriosos[datos];
     }
 
 // Obtener el elemento con el id "botondato" y que al hacer click en el botón nos mostrara otro dato curioso
-document.getElementById("botondato").addEventListener("click", mostrarDato);
+document.querySelector("#botondato").addEventListener("click", mostrarDato);
 
 // Para que no haga falta hacer click en el boton para que se muestre otro dato, ya sea al cargar la pagina o recargarla
 mostrarDato();
