@@ -25,31 +25,31 @@
         <h1 class="titulo">Funcionamiento de las luces móviles de las obras de Rafael Lozano-Hemmer</h1>
 </div>
 <h2 class="subtitulo">Complete el cuestionario por favor</h2>
-<div id="formularios">
     <form action="#" method="get">
         <fieldset>
-            <legend>Datos de la obra</legend>
+            <legend>DATOS Y CONSUMO DE LA OBRA</legend>
             <label for="nombre">Nombre de la obra: </label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" required>
         </fieldset>
         <fieldset>
             <label for="cantidadluces">Cantidad de luces que utiliza: </label>
-            <input type="text" name="cantidadluces" id="cantidadluces">
+            <input type="text" name="cantidadluces" id="cantidadluces" required>
         </fieldset>
         <fieldset>
             <label for="horasfuncionamiento">Tiempo de funcionamiento: </label>
-            <input type="time" name="horasfuncionamiento" id="horasfuncionamiento">
+            <input type="time" name="horasfuncionamiento" id="horasfuncionamiento" required>
         </fieldset>
         <fieldset>
-            <label for="consumoelectricidad">Consumo de electricidad de cada luz móvil: </label>
-            <input type="number" name="consumoelectricidad" id="consumoelectricidad">
+            <label for="consumoelectricidad">Consumo de electricidad de la luz móvil por hora: </label>
+            <input type="number" name="consumoelectricidad" id="consumoelectricidad" required>
         </fieldset>
         <fieldset>
             <label for="costo">Costo: </label>
-            <input type="number" name="costo" id="costo">kWh
+            <input type="number" name="costo" id="costo" required>kWh
         </fieldset>
+        <button type="reset">Borrar</button>
+        <button type="submit">Enviar</button>
     </form>
-</div>
     </main>
 <hr>
 <footer><address>Para contactarse escribir a <a href="mailto:rafael@artedigital.com"> rafael@artedigital.com</a></address></footer>
