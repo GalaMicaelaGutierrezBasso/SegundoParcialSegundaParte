@@ -45,6 +45,7 @@ nav a:active {
 }
 .subtitulo {
     background-color: #ffe600;
+    max-width: fit-content;
 }
 .contenedor {
     display: flex;
@@ -113,4 +114,11 @@ blockquote {
 .seccion3 {
     background-color: #fba5a5;
     max-width: 80%;
+}
+
+/* Pagina 4 */
+#formularios {
+    background-color: #ffffff;
+    max-width: 45%;
+    font-size: 1.3rem;
 }
