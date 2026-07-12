@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Funcionamiento de Luces</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
         <link href="css/estilos.css" rel="stylesheet">
     </head>
     <body>
@@ -17,27 +21,45 @@
         </nav>
         </header>
     <main>
+<div class="contenedor">
+        <h1 class="titulo">Funcionamiento de las luces móviles de las obras de Rafael Lozano-Hemmer</h1>
+</div>
+<h2 class="subtitulo">Complete el cuestionario por favor</h2>
 <!--Formulario-->
 <!--Ingresar su nombre-->
-        <form>Ingrese el nombre de la obra
-        <input type="text" name="nombre">
-        </form>
+<div id="formularios">
+    <form action="">
+<div id="formulario1">
+        <label for="nombre">Ingrese el nombre de la obra</label>
+        <input type="text" name="nombre" id="formulario1">
+</div>
+<br>
 <!--La cantidad de luces moviles que utiliza-->
-            <form>Ingrese la cantidad de luces que utiliza
-            <input type="number" name="cantidadluces">
-            </form>
+<div id="formulario2">
+        <label for="cantidadluces">Ingrese la cantidad de luces que utiliza</label>
+        <input type="number" name="cantidadluces" id="formulario2">
+</div>
+<br>
 <!--Tiempo de funcionamiento por día en horas-->
-            <form>Ingrese el tiempo de funcionamiento
-            <input type="time" name="horasfuncionamiento">
-            </form>
+<div id="formulario3">
+        <label for="horasfuncionamiento">Ingrese el tiempo de funcionamiento</label>
+        <input type="time" name="horasfuncionamiento" id="formulario3">
+</div>
+<br>
 <!--Ingresar el consumo por hora de electricidad de cada luz móvil-->
-            <form>Ingrese el consumo de electricidad de cada luz móvil
-            <input type="number" name="consumoelectricidad">
-            </form>
+<div id="formulario4">
+        <label for="consumoelectricidad">Ingrese el consumo de electricidad de cada luz móvil</label>
+        <input type="number" name="consumoelectricidad" id="formulario4">
+</div>
+<br>
 <!--Y el costo por kWh-->
-            <form>Ingrese el costo
-            <input type="number" name="costo">
-            </form>
+<div id="formulario5">
+        <label for="costo">Ingrese el costo</label>
+        <input type="number" name="costo" id="formulario5">kWh
+</div>
+<br>
+    </form>
+</div>
     </main>
 <hr>
 <footer><address>Para contactarse escribir a <a href="mailto:rafael@artedigital.com"> rafael@artedigital.com</a></address></footer>
