@@ -11,12 +11,12 @@ let obras = [
 // Despues obtener el elemento con el id "datocurioso" y cambiar su contenido al dato curioso obtenido anteriormente
 function mostrarObra() {
     let galeria = Math.floor(Math.random() * obras.length);
-    document.getElementById("obrasgaleria").textContent = obras[galeria].nombre + " (" + obras[galeria].año + ")";
-    document.getElementById("imagenobra").src = obras[galeria].imagen;
+    document.querySelector("#obrasgaleria").textContent = obras[galeria].nombre + " (" + obras[galeria].año + ")";
+    document.querySelector("#imagenobra").src = obras[galeria].imagen;
     }
 
 // Obtener el elemento con el id "botonobra" y que al hacer click en el botón nos mostrara otra obra
-document.getElementById("botonobra").addEventListener("click", mostrarObra);
+document.querySelector("#botonobra").addEventListener("click", mostrarObra);
 
 // Para que no haga falta hacer click en el boton para que se muestre otra obra, ya sea al cargar la pagina o recargarla
 mostrarObra();
